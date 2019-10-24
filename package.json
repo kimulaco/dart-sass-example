@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss/main.scss dist/css/main.css",
-    "lint": "stylelint src/**/*.scss"
+    "lint": "stylelint src/**/**.scss"
   },
   "devDependencies": {
     "sass": "^1.23.1",
