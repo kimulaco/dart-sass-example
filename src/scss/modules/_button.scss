@@ -1,17 +1,19 @@
+@use "../define/font";
 @use "../define/color";
 
 .button {
-    background: color.$gray;
+  font-family: font.$font-family-default;
+  background: color.$gray;
 
-    &.-primary {
-        background: color.$blue;
-    }
+  &.-primary {
+    background: color.$blue;
+  }
 
-    &.-success {
-        background: color.$green;
-    }
+  &.-success {
+    background: color.$green;
+  }
 
-    &.-warning {
-        background: color.$red;
-    }
+  &.-warning {
+    background: color.$red;
+  }
 }

@@ -1,4 +1,14 @@
 .button {
+  font-family: sans-serif;
+  background: "#ccc";
+}
+.button.-primary {
+  background: "#00f";
+}
+.button.-success {
+  background: "#0f0";
+}
+.button.-warning {
   background: "#f00";
 }
 

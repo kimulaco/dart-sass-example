@@ -5,9 +5,13 @@
   "author": "kimulaco",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/scss/main.scss dist/css/main.css"
+    "build": "sass src/scss/main.scss dist/css/main.css",
+    "lint": "stylelint src/**/*.scss"
   },
   "devDependencies": {
-    "sass": "^1.23.1"
+    "sass": "^1.23.1",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.12.0"
   }
 }
