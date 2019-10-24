@@ -1,0 +1,17 @@
+@use "../define/color";
+
+.button {
+    background: color.$gray;
+
+    &.-primary {
+        background: color.$blue;
+    }
+
+    &.-success {
+        background: color.$green;
+    }
+
+    &.-warning {
+        background: color.$red;
+    }
+}
